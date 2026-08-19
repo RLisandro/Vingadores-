@@ -59,6 +59,8 @@ text-decoration:none;
     height:300px;
     /* Definir o tamanho da imagem de fundo */
     background-size:cover;
-    
+    /* Definir a posição da imagem de fundo */
+    background-position: center;;
+
 
 }
