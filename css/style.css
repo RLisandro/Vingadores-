@@ -23,12 +23,23 @@ body {
 .container {
     /* Definir a largura mínima */
     min-width: 400px;
-    max-width: 1200px;   
+    max-width: 1200px;
     /* Definir a cor de fundo */
     background-color: gray;
-     /* Centralizar o container */
+    /* Centralizar o container */
     margin: 0 auto;
-   
+}
 
+header {
+    background-color: #333;
 
+}
+
+a.logo {
+    /*   nline - block permite que o elemento tenha  a altura e a largura */
+    display: inline-block;
+    width: 150px;
+}
+a.logo>img{
+    width: 100%;
 }
