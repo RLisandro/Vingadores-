@@ -55,5 +55,10 @@ text-decoration:none;
 .banner{
     /* Definir uma imagem de fundo */
     background-image: url(../img/banner.jpg);
+    /* Definir uma imagem do elemento */
+    height:300px;
+    /* Definir o tamanho da imagem de fundo */
+    background-size:cover;
     
+
 }
