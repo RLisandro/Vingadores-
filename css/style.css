@@ -1,19 +1,30 @@
 /* Seleciona todos os elementos do Html */
 * {
     margin: 0;
-    padding: 0;   
+    padding: 0;
     /* Considera a borda ao definir a largura e altura */
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
-body{
-  /* Definir uma dfamília pafrão de fonte */
-  font-family: Arial, sans-serif, Verdana, Geneva, Tahoma, sans-serif,
-   Lucida Sans, Lucida Sans Regular,
-  Lucida Grande, Lucida Sans Unicode  ;
-  font-size: 16px;
-  /* Definir uma cor de texto padrão */
-  color:#333;
-  /* Definir o alinhamento padrão */
-  text-align:center;
-  
+
+body {
+    /* Definir uma dfamília pafrão de fonte */
+    font-family: Arial, sans-serif, Verdana, Geneva, Tahoma, sans-serif,
+        Lucida Sans, Lucida Sans Regular,
+        Lucida Grande, Lucida Sans Unicode;
+    font-size: 16px;
+    /* Definir uma cor de texto padrão */
+    color: #333;
+    /* Definir o alinhamento padrão */
+    text-align: center;
+
+}
+
+/* Seleciona todos os elemento da classe conterner */
+.container {
+    /* Definir a largura mínima */
+    min-width: 400px;
+    max-width: 1200px;   
+    /* Definir a cor de fundo */
+    background-color: gray;
+
 }
