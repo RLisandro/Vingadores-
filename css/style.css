@@ -26,5 +26,9 @@ body {
     max-width: 1200px;   
     /* Definir a cor de fundo */
     background-color: gray;
+     /* Centralizar o container */
+    margin: 0 auto;
+   
+
 
 }
