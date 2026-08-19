@@ -41,5 +41,19 @@ a.logo {
     width: 150px;
 }
 a.logo>img{
-    width: 100%;
+    width: 100%;  
+
+}
+li{
+    list-style-type: none;
+}
+a:link, a:visited {
+color: #ebebeb; 
+text-decoration:none;
+
+}
+.banner{
+    /* Definir uma imagem de fundo */
+    background-image: url(../img/banner.jpg);
+    
 }
