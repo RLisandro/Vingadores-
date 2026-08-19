@@ -1,6 +1,19 @@
 /* Seleciona todos os elementos do Html */
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0;   
+    /* Considera a borda ao definir a largura e altura */
+     box-sizing: border-box;
+}
+body{
+  /* Definir uma dfamília pafrão de fonte */
+  font-family: Arial, sans-serif, Verdana, Geneva, Tahoma, sans-serif,
+   Lucida Sans, Lucida Sans Regular,
+  Lucida Grande, Lucida Sans Unicode  ;
+  font-size: 16px;
+  /* Definir uma cor de texto padrão */
+  color:#333;
+  /* Definir o alinhamento padrão */
+  text-align:center;
+  
 }
